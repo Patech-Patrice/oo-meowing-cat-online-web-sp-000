@@ -3,6 +3,10 @@ class Cat
 attr_accessor :name
  attr_writer :name
  attr_reader :name
+ 
+ def initialize
+   meow
+ 
 end
 
 
