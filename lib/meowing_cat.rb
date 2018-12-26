@@ -4,6 +4,9 @@ class Cat
  attr_reader :name
 end
 
+
+def meow 
+  
 maru = Cat.new
 maru.name = "Maru"
  
