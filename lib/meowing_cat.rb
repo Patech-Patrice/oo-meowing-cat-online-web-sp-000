@@ -14,6 +14,8 @@ def meow
   puts "meow!"
 end 
 
+maru.meow
+
 
 maru = Cat.new
 maru.name = "Maru"
